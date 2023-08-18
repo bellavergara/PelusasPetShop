@@ -1,0 +1,7 @@
+header, footer{
+    background-color: black;
+    min-height: 10vh;
+}
+main{
+    min-height: 80vh;
+}
