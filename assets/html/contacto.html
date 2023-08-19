@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina-pet-shop-veterinaria">
+    <link rel="shortcut icon" href="./assets/image/Diseño sin título.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Contactto</title>
+</head>
+<body>
+        <nav id="navegacion" class="navbar navbar-expand-lg bg-body-tertiary p-0 ">
+            <div  class="container-fluid w-100 flex-lg-column">
+              <a class="navbar-brand " href="../../index.html"><p class="display-5 m-0"><img  src="../image/Diseño_sin_título-removebg-preview.png" alt="" srcset=""></p></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse col-lg-8" id="navbarNavDropdown">
+                <ul id="ul-nav" class="navbar-nav col-12 text-center justify-content-lg-around ">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Inicio
+                    </a>
+                    <ul class="dropdown-menu text-center">
+                      <li><a class="dropdown-item" href="../html/ofertas.html">Ofertas</a></li>
+                      <li><a class="dropdown-item" href="../html/nosotros.html">Nosotros</a></li> 
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Shop
+                    </a>
+                    <ul class="dropdown-menu text-center">
+                      <li><a class="dropdown-item" href="../html/pharmac.html">Farmacia</a></li>
+                      <li><a class="dropdown-item" href="../html/toys.html">Juguetes</a></li> 
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../html/contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../html/experiencia.html">Experiencias</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        
+        <header>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../image/dog-1191676.jpg" class="d-block w-100" alt="Image-Banner">
+              </div>              
+              <div class="carousel-item">
+                <img src="../image/dog-2606759.jpg" class="d-block w-100" alt="Image-Banner">
+              </div>
+              <div class="carousel-item">
+                <img src="../image/rabbit-774906.jpg" class="d-block w-100" alt="Image-Banner">
+              </div>
+              <div class="carousel-item">
+                <img src="../image/puppy-2785074.jpg" class="d-block w-100" alt="Image-Banner">
+              </div>
+              <div class="carousel-item">
+                <img src="../image/dog-91765.jpg" class="d-block w-100" alt="Image-Banner">
+              </div>
+              <div class="carousel-item">
+                <img src="../image/dog-3071334.jpg" class="d-block w-100" alt="Image-Banner">
+              </div>
+              <div class="carousel-item">
+                <img src="../image/dog-2606759.jpg" class="d-block w-100" alt="Image-Banner">
+              </div>
+
+            </div>
+          </div>
+        </header>
+
+        <main>
+          <div class="d-flex gap-5 justify-content-center align-items-center" >
+              <div>
+                  <h2>Contacto</h2>
+                  <p>Si tenés alguna duda o consulta, no dudes en contactarnos.</p>
+                  <form>
+                      <div class="mb-3">
+                          <label for="nombre" class="form-label">Nombre</label>
+                          <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                      </div>
+                      <div class="mb-3">
+                          <label for="apellido" class="form-label">Apellido</label>
+                          <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                      </div>
+                      <div class="mb-3">
+                          <label for="telefono" class="form-label">Telefono</label>
+                          <input type="text" class="form-control" id="telefono" placeholder="+56968056877">
+                      </div>
+                      <select class="form-select" aria-label="Default select example">
+                          <option selected>Selecciona tu mascota:</option>
+                          <option value="gato">Gato</option>
+                          <option value="perro">Perro</option>
+                          <option value="conejo">Conejo</option>
+                          <option value="loro">Loro</option>
+                          <option value="pez">Pez Dorado</option>
+                          <option value="nda">Ninguna de las anteriores</option>
+                        </select>
+                        <div class="mb-3">
+                          <label for="otra mascota" class="form-label">Otra mascota:</label>
+                          <input type="text" class="form-control" id="otraMascota" placeholder="Tu mascota">
+                      </div>
+                      <div class="mb-3">
+                          <label for="mensaje" class="form-label">Mensaje</label>
+                          <textarea class="form-control" id="mensaje" rows="3" placeholder="Mensaje"></textarea>
+                      </div>
+                      <button type="submit" class="btn  btn-outline-success m-3">Enviar</button>
+                  </form>
+              </div>
+              <div class="contenedorMapa">
+                  <h2>Encuentranos en:</h2>
+                  <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d422741.54498574306!2d-118.5353689079226!3d34.12924007651052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1689898718664!5m2!1ses!2sar"
+                      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+          </div>
+      </main>
+
+      <footer><h3>Pet Shop Pelusas - 2023</h3></footer>
+    <script src=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

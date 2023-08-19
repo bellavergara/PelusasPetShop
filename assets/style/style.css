@@ -1,0 +1,74 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav a:active {
+    background-color: #8da9ecbb !important;
+}
+nav img{
+    width: 20rem; 
+    height: 10rem;
+    object-fit: cover;
+}
+h3{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline;
+    justify-content: center;
+}
+#navegacion{
+    display: flex;
+    min-width: 100vh !important;
+    min-height: 30vh !important;
+    justify-content: space-around !important;
+    align-items: center!important;
+    background-color: #3366debb !important;
+    font-size: x-large;
+}
+#ul-nav{
+    color: black;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#carouselExampleSlidesOnly{
+    min-width: 100vh !important;
+}
+header img {
+    height: 50vh;
+    object-position: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+main {
+    background-color: #5ca23b81 !important;
+    min-width: 100vh;
+    min-height: 80vh !important;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgExperiencia{
+    min-width: 50% !important;
+    height: 40vh !important;
+    object-fit: cover;
+}
+.mascota{
+    width: 95% !important ;
+}
+#form-experiencias{
+    background-color: rgba(83, 174, 143, 0.36);
+}
+footer{
+    min-width: 100vh;
+    height: 10vh;
+    background-color: #3366debb !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
