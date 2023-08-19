@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sombra1{
+    border-radius: 34px;
+    background: #4eb54033;
+    box-shadow:  13px 13px 15px #36822e35,
+                 -13px -13px 15px #35752c37;
+}
+.sombra2{
+    box-shadow: 1px 1px 18px 11px rgba(124, 156, 217, 0.257);
+-webkit-box-shadow: 1px 1px 18px 11px rgba(124, 156, 217, 0.316);
+-moz-box-shadow: 1px 1px 18px 11px rgba(124, 156, 217, 0.192);
+
+}
+
+nav a:active {
+    box-shadow: 2px 2px 5px #1d330c57;
+}
+nav img{
+    width: 20rem; 
+    height: 10rem;
+    object-fit: cover;
+}
+h3{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline;
+    justify-content: center;
+}
+#navegacion{
+    display: flex;
+    min-width: 100vh !important;
+    min-height: 30vh !important;
+    justify-content: space-around !important;
+    align-items: center!important;
+    background-color: #3366de5a !important;
+    font-size: x-large;
+}
+#ul-nav{
+    color: black;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#carouselExampleSlidesOnly{
+    min-width: 100vh !important;
+}
+header img {
+    height: 50vh;
+    object-position: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+main {
+    background-color: #d2e5e5e2 !important;
+    min-width: 100vh;
+    min-height: 80vh !important;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin: 2rem !important;
+    background-color: rgba(200, 214, 239, 0.75);
+}
+.card-body{
+   /*  background-color: rgba(24, 142, 142, 0.182); */
+   background-color: rgba(47, 207, 154, 0.174);
+    height: 7em !important;
+    
+}
+.nosotros{
+    height: 25vh !important;
+}
+.imgExperiencia{
+    min-width: 50% !important;
+    height: 40vh !important;
+    object-fit: cover;
+}
+.mascota{
+    width: 95% !important ;
+}
+#form-experiencias{
+    background-color: rgba(47, 207, 154, 0.174);
+    margin: 5rem !important;
+ 
+}
+footer{
+    min-width: 100vh;
+    height: auto;
+    background-color: #3366de5a !important;
+    display: flex;
+    justify-content: space-around;
+
+}
