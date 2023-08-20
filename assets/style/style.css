@@ -1,10 +1,11 @@
 body {
-    background: #e2eaef;
+    background: #dcecff;
     font-family: "Open Sans", sans-serif;
 }
 section,main{
     margin: 5vh 0;
 }
+
 h2 , h3{
     color: #000;
     font-size: 26px;
@@ -62,7 +63,6 @@ nav img{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .borderDotted{
-
     border-color: #694433;
     border-width: 1px 0 1px 0;
     border-style: dashed;
@@ -81,15 +81,15 @@ header img {
     object-position: center;
 }
 /* -------------------carousel objetos y logos--------------------------- */
-.objPrueba{
-    border: 5px solid black;
-    height: 40vh;
+
+.radius{
+    border-radius: 15px;
+}
+.tituloCard{
+    font-size: 1.5rem;
 }
 
 
-.itemCarousel{
-    background-color: grey;
-}
 .carou{
     height: 15rem;
 }
@@ -234,5 +234,9 @@ svg {
     .carouselIndex img{
         height: 50vh;
         object-position: top;
+    }
+    .objPrueba{
+    
+        height: 40vh;
     }
 }
