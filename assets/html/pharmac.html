@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="./assets/image/Diseño sin título.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/style.css">
-    <title>Contactto</title>
+    <title>PelusasPetShop/Farmacia </title>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary p-0 ">
@@ -47,21 +47,46 @@
       </div>
     </div>
   </nav>
+  <header>
+    <section>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../image/Farmacia/1.png" class="d-block h-100 w-100 object-fit-cover" alt="banner1">
+            </div>
+            <div class="carousel-item">
+              <img src="../image/Farmacia/3.png" class="d-block w-100 object-fit-cover" alt="banner2">
+            </div>
+            <div class="carousel-item">
+              <img src="../image/Farmacia/4.png" class="d-block h-100 w-100 object-fit-cover" alt="banner3">
+            </div>
+            <div class="carousel-item">
+              <img src="../image/Farmacia/6.png" class="d-block h-100 w-100 object-fit-cover" alt="banner4">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+  </section>
+  </header>
         <main style="min-height: 80vh;">
             <section class="d-flex flex-wrap" >
 
-                  <div class="card" style="width: 18rem;">
+                  <!-- <div class="card" style="width: 18rem;">
                     <div class="card-body-datails mh-100 rounded-start-1 figure-img img-fluid rounded p-2 ">
                         <img src="../image/dog-91765.jpg" id="img-detail" class="figure-img img-fluid rounded p-2 " alt="Image-Card">
-                     </div>
+                     </div> -->
                     <div class="card-body">
                         <div id="textCard">
-                            <figcaption> <h5 class="card-title">${objEvent.name}</h5> </figcaption>
-                            <figcaption><h6 class="card-text">Category: ${objEvent.category}</h6></figcaption>
-                            <figcaption> <h6 class="card-text">${objEvent.estimate ? `Estimate: ${objEvent.estimate}` : `Capacity: ${objEvent.capacity}`}</h6></figcaption>
-                            <figcaption> <h5 class="card-text ">Price:$${objEvent.price}</h5></figcaption>
-                          </div>
-                      <button style="width: 15rem; " id="hideTextbtn"> </button> 
+                           
+                        </div>
+                      <button class="hideTextbtn" style= ""> </button> 
                       <hr style="color: transparent;">     
                       <span class="ocultar" id="hideText">
                       <div class="d-flex justify-content-around">
@@ -74,31 +99,26 @@
                     </span>
                     </div>
                   </div>
-            </section>
-
-           
-
-
-            
+            </section>   
 
         </main>
 
       <footer>
 
 
-        <secttuion>
+        <section>
           <h4>Medios de pago:</h4>
           <h6><img src="../image/monedas-de-dolar.png" style="width: 50px; margin: 0.5rem;" alt="Facebock">Efectivo</h6>
           <h6> <img src="../image/pago-con-tarjeta.png" style="width: 50px; margin: 0.5rem;" alt="Facebock">Tarjeta de debito/credito</h6>
           <h6> <img src="../image/pago-en-linea.png" style="width: 50px; margin: 0.5rem;" alt="Facebock">Bytcoin</h6>
           <h6> <img src="../image/codigo-qr.png" style="width: 50px; margin: 0.5rem;" alt="Facebock">Mercadp Pago</h6>
-        </secttuion>
+        </section>
 
-        <secttuion style="display: flex; flex-direction: column; justify-content: space-evenly;">
+        <section style="display: flex; flex-direction: column; justify-content: space-evenly;">
           <h4>MindHub-Cohort-50</h4>
-        </secttuion>
+        </section>
 
-        <secttuion>
+        <section>
           <h4>Nuestras Redes Sociales:</h4>
           <div>
            <h6> <a href="https://es-la.facebook.com/" target="_blank"><img src="../image/facebook.png" style="width: 50px; margin: 0.5rem;" alt="Facebock"></a> Faceboock</h6>
@@ -106,7 +126,7 @@
            <h6><a href="https://www.instagram.com/" target="_blank"><img src="../image/instagram.png" style="width: 50px; margin: 0.5rem;" alt="Instagram"></a>Instagram</h6>
            <h6><a href="https://www.gmail.com/" target="_blank"><img src="../image/email.png"  style="width: 50px; margin: 0.5rem;" alt="Instagram"></a>Email</h6>
           </div>
-        </secttuion>
+        </section>
       </footer>
     <script src="../javascript/pharmac.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>

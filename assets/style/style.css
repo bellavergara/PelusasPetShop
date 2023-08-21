@@ -378,6 +378,19 @@ svg {
 	transform: translateY(-7px);
 }
 
+.carousel-inner{
+    height: 15rem;
+    display: flex;
+    align-items: center;
+}
+
+#textCard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 @media only screen and (max-width: 600px) {
  	.btn-flotante {
 		font-size: 14px;
