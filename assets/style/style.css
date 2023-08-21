@@ -402,3 +402,27 @@ svg {
         object-position: top;
     }
 }
+
+
+/*------------estilo Bella --------- */
+
+.centered-placeholder::placeholder {
+    text-align: center;
+}
+
+#botton{
+    position: absolute;
+    top: 50%; /* Ajusta según tu preferencia para centrar verticalmente */
+    right: 0; /* Posición a la derecha */
+    transform: translateY(-50%); 
+    right: 0;
+}
+
+.carousel-inner {
+    transition-duration: 3s; /* Ajusta la duración de la transición en segundos */
+}
+
+
+ .textoh3{
+    
+font-size: xx-large;}
