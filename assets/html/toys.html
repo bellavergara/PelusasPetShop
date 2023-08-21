@@ -17,6 +17,7 @@
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      
       <div class="collapse navbar-collapse col-lg-12 bg-white borderDotted" id="navbarNavDropdown">
         <ul class="navbar-nav col-12 text-center justify-content-lg-around ">
           <li class="nav-item ">
@@ -47,10 +48,33 @@
       </div>
     </div>
   </nav>
-        <main style="min-height: 80vh;">
+  
 
-      </main>
+  <main class="container" style="min-height: 80vh;">
 
+    <div class="container col-md-12 text-center" id="favoritosHome">
+      <h1 class="title">Destacados para tu mascota</h1>
+  
+      <div  class="d-flex justify-content-center" id="favoritosHomeContainer">
+          <div class="box-banner m-4" id="ofertas-del-mes">
+              <a class="text-decoration-none" href="../html/toysOfertasDelMes.html">
+                  <img width="210" height="210" alt="Ofertas del Mes" src="https://puppis.vteximg.com.br/arquivos/ids/191096/221230-circulo-home-ofertas-del-mes.png?v=638082584288500000" complete="complete">
+                  <h2 class="textoh1">Ofertas del Mes</h2>
+              </a>
+          </div>
+          <div class="box-banner m-4" id="futuros-ingresos">
+              <a class="text-decoration-none" href="../html/toysFuturosIngresos.html">
+                  <img width="200" height="200" alt="Invierno Puppis" src="https://puppis.vteximg.com.br/arquivos/ids/193124/Landing-Invierno-CirculodeHome.png?v=638258959964630000" complete="complete">
+                  <h2 class="textoh1 text-decoration-none">Futuros Ingresos</h2>
+              </a>
+          </div>
+      </div>
+  </div>
+
+  <div class="row justify-content-center" id="card">
+  </div>
+
+</main>
       <footer>
 
 
@@ -76,7 +100,7 @@
           </div>
         </secttuion>
       </footer>
-    <script src=""></script>
+    <script type="module" src="../javascript/toys.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
