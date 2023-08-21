@@ -1,0 +1,404 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+.sombra1{
+    border-radius: 34px;
+    background: #4eb54033;
+    box-shadow:  13px 13px 15px #36822e35,
+                 -13px -13px 15px #35752c37;
+}
+.sombra2{
+    box-shadow: 1px 1px 18px 11px rgba(124, 156, 217, 0.257);
+-webkit-box-shadow: 1px 1px 18px 11px rgba(124, 156, 217, 0.316);
+-moz-box-shadow: 1px 1px 18px 11px rgba(124, 156, 217, 0.192);
+
+}
+
+nav a:active {
+    box-shadow: 2px 2px 5px #1d330c57;
+}
+nav img{
+    width: 20rem; 
+    height: 10rem;
+    object-fit: cover;
+}
+h1, h2, h3 ,h4, h5, h6{
+    font-family: 'Quattrocento', serif;
+}
+.tituloPerroGatoEtc{
+    width: 100% !important;
+    height: 3rem !important;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h3{
+    font-size: xxx-large;
+
+
+}
+#navegacion{
+    display: flex;
+    min-width: 100vh !important;
+    min-height: 30vh !important;
+    justify-content: space-around !important;
+    align-items: center!important;
+    background-color: #3366de5a !important;
+    font-size: x-large;
+}
+#ul-nav{
+    color: black;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#carouselExampleSlidesOnly{
+    min-width: 100vh !important;
+}
+header img {
+    height: 50vh;
+    object-position: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.card{
+    margin: 2rem !important;
+    background-color: rgba(200, 214, 239, 0.75);
+}
+.card-body{
+   /*  background-color: rgba(24, 142, 142, 0.182); */
+   background-color: rgba(47, 207, 154, 0.174);
+    min-height: 7em !important;
+    
+}
+.nosotros{
+    height: 25vh !important;
+}
+.imgExperiencia{
+    min-width: 50% !important;
+    height: 40vh !important;
+    object-fit: cover;
+}
+.mascota{
+    width: 95% !important ;
+}
+#form-experiencias{
+    background-color: rgba(47, 207, 154, 0.174);
+    margin: 5rem !important;
+}
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: greenyellow ;
+    color: black;
+    text-align: center;
+
+}
+footer{
+    min-height: 45vh !important;
+    background-color: #6d91e65a !important;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+#mainProd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card-body-prod {
+    min-width: 50vh;
+    min-height: 45vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: #c0ceee5a !important;
+    border-radius: 0.5rem;
+}
+
+figure {
+    min-width: 80vh !important;
+    min-height: 50vh !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 1rem;
+    background-color: #01184d5a !important;
+    border-radius: 10px;
+    background-color: #6d91e65a !important;}
+
+#textCardPord {
+    min-width: 75vh !important;
+    height: 30vh !important;
+    background-color: rgba(108, 234, 243, 0.527);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+#img-detail {
+    width: 70vh !important;
+    height: auto !important;
+    object-fit: cover;
+}
+
+.ocultar{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+body {
+    background: #e2eaef;
+    font-family: "Open Sans", sans-serif;
+}
+section,main{
+    margin: 5vh 0;
+}
+h2 , h3{
+    color: #000;
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin: 30px 0 60px;
+}
+h2::after, h3::after {
+    content: "";
+    width: 100px;
+    position: absolute;
+    margin: 0 auto;
+    height: 4px;
+    border-radius: 1px;
+    background: #7ac400;
+    left: 0;
+    right: 0;
+    bottom: -20px;
+}
+/* --------separador--------- */
+hr.style9 {
+	border-top: 5px dashed #8c8b8b;
+	border-bottom: 5px dashed #fff;
+}
+/* -----------------nav ---------------*/
+
+nav a:active {
+    background-color: #8da9ecbb !important;
+}
+nav img{
+    width: 20rem; 
+    height: 10rem;
+    object-fit: cover;
+}
+.lineaLateral{
+    border-color: #694433;
+    border-width: 0 1px 0 1px;
+    border-style: dashed;
+}
+
+#navegacion{
+    display: flex;
+    min-width: 100% !important;
+    min-height: 30vh !important;
+    justify-content: space-around !important;
+    align-items: center!important;
+    background-color: #3366debb !important;
+    font-size: x-large;
+}
+#ul-nav{
+    color: black;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.borderDotted{
+
+    border-color: #694433;
+    border-width: 1px 0 1px 0;
+    border-style: dashed;
+}
+.borderDottedFull{
+
+    border-color: #694433;
+    border-width: 3px;
+    border-style: dashed;
+}
+
+header img {
+    height: 50vh;
+    object-position: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+/* -------------------carousel objetos y logos--------------------------- */
+.objPrueba{
+    border: 5px solid black;
+    height: 40vh;
+}
+
+
+.itemCarousel{
+    background-color: grey;
+}
+.carou{
+    height: 15rem;
+}
+#logo{
+width: 20rem;
+object-fit: contain;
+}
+#logoCarousel{
+    z-index: 2;
+    position: absolute;
+    height: 20vh;
+    object-fit: cover;
+}
+/* -----------------------liston------------------------------------------ */
+.corner-ribbon {
+    position: relative;
+}
+
+.corner-ribbon__inner {
+    /* Displayed at the top left corner */
+    left: 0px;
+    position: absolute;
+    top: 0px;
+
+    /* Size */
+    height: 4rem;
+    width: 4rem;
+
+    /* Hide the part of its children which is displayed outside */
+    overflow: hidden;
+}
+.corner-ribbon__ribbon p{
+    color: white;
+}
+.corner-ribbon__ribbon {
+    /* Position */
+    left: 1rem;
+    position: absolute;
+    top: 1rem;
+
+    /* Size */
+    height: 1.5rem;
+    width: 5.656rem;
+
+    /* Displayed diagonally */
+    transform: translate(-38px, -8px) rotate(-45deg);
+
+    /* Background color */
+    background-color: #ec2a2acb;
+
+    /* Centerize the text content */
+    text-align: center;
+}
+/* -------------------------- indexDetalles-------- */
+.franjaTodas{
+    background-color: rgb(255, 255, 255);
+}
+.franjaDerecha{
+    border-radius: 0 15px 15px 0;
+    border-color: #694433;
+    border-width: 3px 3px 3px 0;
+    border-style: dashed;
+}
+.franjaIzquierda{
+    border-radius:  15px 0 0 15px;
+    border-color: #694433;
+    border-width: 3px 0 3px 3px;
+    border-style: dashed;
+}
+.franjaCentral{
+    border-radius: 15px;
+}
+#nosotrosSection{
+    background-image: url(../image/index/perros-hipoalergenicos-1140x641.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.filtroDeColor{
+    
+    background: linear-gradient(0deg, rgba(186, 200, 255, 0.473) 0%, rgba(235, 179, 255, 0.589) 50%, rgba(255, 242, 204, 0.39) 100%);
+}
+/* ---------------carousel guada----------------- */
+
+
+/* -------------scrollup ---------------*/
+svg {
+    width: 2rem;
+    height: 2rem;
+  }
+.btn-flotante {
+	text-transform: uppercase; /* Texto en mayusculas */
+	font-weight: bold; /* Fuente en negrita o bold */
+	color: #ffffff; /* Color del texto */
+	border-radius: 5px; /* Borde del boton */
+	background-color: #e91e62c7; /* Color de fondo */
+	padding: 10px 15px; /* Relleno del boton */
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+}
+.btn-flotante:hover {
+	background-color: #2c2fa5; /* Color de fondo al pasar el cursor */
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+}
+
+@media only screen and (max-width: 600px) {
+ 	.btn-flotante {
+		font-size: 14px;
+		padding: 12px 20px;
+		bottom: 20px;
+		right: 20px;
+	}
+    
+}
+
+/* ---------------responsive------------- */
+
+@media only screen and (min-width: 1024px){
+    .navPet{
+        background-image: url(../image/index/mascotas.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .carouselIndex img{
+        height: 50vh;
+        object-position: top;
+    }
+}
