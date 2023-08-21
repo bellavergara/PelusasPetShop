@@ -4,7 +4,7 @@ export function crearCardToys(listaDejuguetes) {
     let estructuraCard = "";
     for (const jueguete of listaDejuguetes) {
         estructuraCard += `
-        <div class="card col-md-4 mb-4" style="width: 18rem;">
+        <div class="card col-md-4"" style="width: 18rem;">
         <div class="card-body-datails mh-100 rounded-start-1 figure-img img-fluid rounded p-2 ">
         <img src="${jueguete.imagen}" id="img-detail" class="figure-img img-fluid rounded p-2 " alt="Image-Card">
      </div>
