@@ -1,6 +1,6 @@
 import {
     obtenerObjetosJugueteria,
-    crearCardToys
+    crearCardToys,
 } from "./funcionesExport.js"
 
 // INICIO DEL FETCH//
