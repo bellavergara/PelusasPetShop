@@ -87,59 +87,11 @@
       </div>
       <h2>Ultimas unidades</h2>
       <div id="carouselExampleSlidesOnly2" class="carousel slide col-12" data-bs-ride="carousel">
-        <div class="carousel-inner position-relative">
+        <div id="carouselDeObjetos" class="carousel-inner position-relative">
           <!-- carousel item -->
-          <div class="carousel-item active ">
-            <div class="d-flex justify-content-center col-12" >
-              <div  class="d-flex justify-content-center col-12 col-sm-8 col-lg-7 col-xl-6 objPrueba corner-ribbon">
-                <div class="d-flex justify-content-center col-10 corner-ribbon__inner">
-                  <div class="corner-ribbon__ribbon">
-                    <p>Ultimos!</p>
-                  </div>
-                </div>
-                <div class="d-flex flex-lg-row col-12 borderDottedFull radius shadow-lg flex-column" style="background-color: white;">
-                  <div style="background-image: url('./assets/image/banerPrueba.jpg'); background-size: cover; background-position: center; border-radius: 15px 0 0 15px; height: 22rem;" class="col-12 col-lg-7">
-                  </div>
-                  <div class="col-12 col-lg-5 d-flex flex-column justify-content-between p-2">
-                    <p class="fw-bold tituloCard">Nombre de producto</p>
-                    <p>descripcion</p>
-                    <p>apurate que quedan pocos!</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <p class="m-0 fw-bold">$ 1568764</p>
-                      <a class="btn btn-success" href="">comprar</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item ">
-            <div class="d-flex justify-content-center col-12" >
-              <div  class="d-flex justify-content-center col-12 col-sm-8 col-lg-7 col-xl-6 objPrueba corner-ribbon">
-                <div class="d-flex justify-content-center col-10 corner-ribbon__inner">
-                  <div class="corner-ribbon__ribbon">
-                    <p>Ultimos!</p>
-                  </div>
-                </div>
-                <div class="d-flex flex-lg-row col-12 borderDottedFull radius shadow-lg flex-column" style="background-color: white;">
-                  <div style="background-image: url('./assets/image/banerPrueba.jpg'); background-size: cover; background-position: center; border-radius: 15px 0 0 15px; height: 22rem;" class="col-12 col-lg-7">
-                  </div>
-                  <div class="col-12 col-lg-5 d-flex flex-column justify-content-between p-2">
-                    <p class="fw-bold tituloCard">Nombre de producto 2</p>
-                    <p>descripcion</p>
-                    <p>apurate que quedan pocos!</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <p class="m-0 fw-bold">$ 1568764</p>
-                      <a class="btn btn-success" href="">comprar</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        <!-- ----------------------------- -->
+          
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly2" data-bs-slide="prev">
+      <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleSlidesOnly2" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Anterior</span>
       </button>
@@ -193,6 +145,17 @@
     <a href="#" class="btn-flotante"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-square" viewBox="0 0 16 16">
       <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.5 9.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
     </svg></a>
+
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Carrito de compras</button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Mi carrito de compras</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div id="carritoPestania" class="offcanvas-body">
+    
+</div>
   </main>
   <hr class="style9">
   
@@ -209,6 +172,7 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"></script>
       <script type="module" src="./assets/javascript/index.js"></script>
+      <script type="module" src="./assets/javascript/modulos.js"></script>
 </body>
 
 </html>

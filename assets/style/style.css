@@ -89,7 +89,9 @@ header img {
     font-size: 1.5rem;
 }
 
-
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(108%);
+  }
 .carou{
     height: 15rem;
 }
@@ -173,6 +175,18 @@ object-fit: contain;
 .filtroDeColor{
     
     background: linear-gradient(0deg, rgba(186, 200, 255, 0.473) 0%, rgba(235, 179, 255, 0.589) 50%, rgba(255, 242, 204, 0.39) 100%);
+}
+/* --------------------carrito--------------- */
+.lineaCarrito{
+    border: 1px solid rgba(36, 28, 28, 0.541);
+    border-radius: 10px;
+}
+.btnCarrito{
+    border: 0;
+}
+.btnCarritoEliminar{
+    font-size: 0.8rem;
+    border: 0;
 }
 /* ---------------carousel guada----------------- */
 
