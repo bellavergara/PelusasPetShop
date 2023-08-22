@@ -25,7 +25,7 @@ export function crearCardToys(listaDejuguetes) {
       </svg></a>
       </div>
     </div> 
-    </div> `
+    </div>  `
     }
     contenedorCard.innerHTML = estructuraCard;
 }
@@ -41,3 +41,6 @@ export function obtenerOferta(lista) {
 export function obtenerFuturosIngresos(array) {
     return array.filter(objeto => objeto.disponibles === 0)
 }
+/* -------------------------------------- */
+
+
