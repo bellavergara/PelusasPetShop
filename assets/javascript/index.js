@@ -9,7 +9,6 @@ let caruselObj = document.getElementById("carouselDeObjetos");
 fetch("https://mindhub-xj03.onrender.com/api/petshop")
   .then((respuesta) => respuesta.json())
   .then((respuesta) => {
-    console.log(respuesta);
     let pocoStock = respuesta.filter(
       (obj) => obj.disponibles <= 5 && obj.disponibles > 0
     );
@@ -20,10 +19,6 @@ fetch("https://mindhub-xj03.onrender.com/api/petshop")
     console.log(arrayNombres);
     caruselPost(ordenadosStock, caruselObj);
 
-    //--------------- botones-------------------
-    // const decrementButtons = document.querySelectorAll(".decrement");
-    // const incrementButtons = document.querySelectorAll(".increment");
-    // const quantityElements = document.querySelectorAll(".quantity");
     const addCarrito = document.querySelectorAll(`.addCarrito`);
     const carritoPestania = document.getElementById(`carritoPestania`);
     let storage = JSON.parse(localStorage.getItem("carrito"));
