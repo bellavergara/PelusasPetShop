@@ -7,7 +7,7 @@ fetch(url)
 
 function mostrarFarmacia(array){
     const container = document.getElementById("container");
-    const farmacos = array.filter(element => element.categoria === "farmacia");
+    const farmacos = array.filter(element => element.categoria === "farmacia" && element.disponibles > 0);
     let html = "";
     farmacos.forEach(element => {
         html += `                  <div class="card" style="width: 18rem;">
