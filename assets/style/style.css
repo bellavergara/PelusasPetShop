@@ -573,37 +573,16 @@ svg {
     }
 }
 
-@media (min-width: 320px) and (max-width: 910px) {
+
+@media  (min-width: 320px)  and (max-width: 910px){
 
 
-    #contenedorContacto {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    #contenedorContacto{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
-
-    footer {
-        height: auto;
-    }
-
-}
-/*------------estilo Bella --------- */
-
-.centered-placeholder::placeholder {
-    text-align: center;
-}
-
-#botton{
-    position: absolute;
-    top: 50%; /* Ajusta según tu preferencia para centrar verticalmente */
-    right: 0; /* Posición a la derecha */
-    transform: translateY(-50%); 
-    right: 0;
-}
-
-.carousel-inner {
-    transition-duration: 3s; /* Ajusta la duración de la transición en segundos */
 }
 
 
