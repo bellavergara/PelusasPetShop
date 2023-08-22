@@ -6,23 +6,67 @@ export function agregar(array,id,carrito) {
 }
 
 export function objetoEnCarrito(obj) {
-    let cantidad = 1
+    let cantidad = "1"
     let precio = obj.precio * cantidad
-    return `<div class="lineaCarrito p-2 d-flex justify-content-between flex-row">
-    <div class="col-8">
-      <p class="m-0">${obj.producto}</p>
-      <p class="m-0">$ ${precio}</p>
-    </div>
-    <div>
-      <div class="d-flex ">
-        <button class="decrement btn btn-outline-primary btnCarrito">-</button>
-        <span class="quantity">${cantidad}</span>
-        <button class="increment btn btn-outline-primary btnCarrito">+</button>
-      </div>
-      <button class="btn btn-outline-danger btnCarritoEliminar">Eliminar</button>
-    </div>
-  </div>
-</div>`
+
+      const elementoCarrito = document.createElement('div');
+      elementoCarrito.classList.add('lineaCarrito', 'p-2', 'd-flex', 'justify-content-between', 'flex-row');
+    
+      const divIzquierdo = document.createElement('div');
+      divIzquierdo.classList.add('col-8');
+    
+      const nombreProducto = document.createElement('p');
+      nombreProducto.classList.add('m-0');
+      nombreProducto.textContent = obj.producto;
+    
+      const precioProducto = document.createElement('p');
+      precioProducto.classList.add('m-0');
+      precioProducto.textContent = `$ ${precio}`;
+    
+      divIzquierdo.appendChild(nombreProducto);
+      divIzquierdo.appendChild(precioProducto);
+    
+      const divDerecho = document.createElement('div');
+    
+      const divBotones = document.createElement('div');
+      divBotones.classList.add('d-flex');
+      
+      const spanCantidad = document.createElement('input');
+      spanCantidad.classList.add('quantity',`col-6`);
+      spanCantidad.type = 'number';
+      spanCantidad.value = '1';
+      spanCantidad.min = '1'; 
+      spanCantidad.max = "5";
+    
+
+      divBotones.appendChild(spanCantidad);
+
+    
+      const botonEliminar = document.createElement('button');
+      botonEliminar.setAttribute("data-_id",obj._id)
+      botonEliminar.classList.add('btn', 'btn-outline-danger', 'btnCarritoEliminar');
+      botonEliminar.textContent = 'Eliminar';
+    
+      divDerecho.appendChild(divBotones);
+      divDerecho.appendChild(botonEliminar);
+    
+      elementoCarrito.appendChild(divIzquierdo);
+      elementoCarrito.appendChild(divDerecho);
+    
+      return elementoCarrito;
+} 
+export function postCarrito(carrito, contenedor) {
+  contenedor.innerHTML = "";
+  carrito.forEach((obj) => {
+    let contenido = objetoEnCarrito(obj);
+    contenedor.appendChild(contenido);
+  });
+}
+
+export function eliminarObj(carrito, objelm) {
+  let objetoAEliminar = carrito.filter((obj) => obj._id !== objelm);
+  console.log(objetoAEliminar);
+  return objetoAEliminar;
 }
 
 export function caruselPost (array,cont) {
