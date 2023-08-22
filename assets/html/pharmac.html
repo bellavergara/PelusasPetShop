@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina-pet-shop-veterinaria">
+    <link rel="shortcut icon" href="./assets/image/Diseño sin título.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="shortcut icon" href="../image/huella.png" type="image/x-icon">
+    <title>PelusasPetShop|Farmacia</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary p-0 ">
+    <div class="container-fluid flex-lg-column p-0 navPet">
+      <a class="navbar-brand" href="../../index.html"><img id="logo" src="../image/index/icono.png" alt="Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse col-lg-12 bg-white borderDotted" id="navbarNavDropdown">
+        <ul class="navbar-nav col-12 text-center justify-content-lg-around ">
+          <li class="nav-item ">
+            <a class="nav-link " href="../../index.html" >
+              Inicio
+            </a>
+            <ul class="dropdown-menu text-center">
+              <li><a class="dropdown-item" href="#">Ofertas</a></li>
+              <li><a class="dropdown-item" href="#nosotrosSection">Nosotros</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Shop
+            </a>
+            <ul class="dropdown-menu text-center">
+              <li><a class="dropdown-item" href="#">Farmacia</a></li>
+              <li><a class="dropdown-item" href="./toys.html">Juguetes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./experiencia.html">Experiencias</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+        <main style="min-height: 80vh;">
+            <section class="d-flex flex-wrap">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body-datails mh-100 rounded-start-1 figure-img img-fluid rounded p-2 ">
+                        <img src="../image/dog-91765.jpg" id="img-detail" class="figure-img img-fluid rounded p-2 " alt="Image-Card">
+                     </div>
+                    <div class="card-body">
+                        <div id="textCard">
+                            <figcaption> <h5 class="card-title">${objEvent.name}</h5> </figcaption>
+                            <figcaption><h6 class="card-text">Category: ${objEvent.category}</h6></figcaption>
+                            <figcaption> <h6 class="card-text">${objEvent.estimate ? `Estimate: ${objEvent.estimate}` : `Capacity: ${objEvent.capacity}`}</h6></figcaption>
+                            <figcaption> <h5 class="card-text ">Price:$${objEvent.price}</h5></figcaption>
+                          </div> 
+                          <hr style="color: transparent;">    
+                          <div class="d-flex justify-content-around aling-items-center ">
+
+
+                            <a href="../html/verProducto.html" class="btn btn-outline-success m-2">Ver <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                            <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
+                            <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+                            </svg></a>
+                          </div>
+                        </div>
+                  </div>
+            </section>
+            <!-- <a href="#" class="btn btn-outline-success m-2" data-toggle="modal" data-target="ventanaNodal">Comprar</a> 
+            <div class="modal-dialog modal-dialog-scrollable">
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="ventanaNodal">Comprar</button>
+            <div class="modal fade" id="ventanaModal" tabindex="-1" role="dialog" aria-labelledby="tituloVentana" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 id="tituloVentana">Titulo Ventana</h5>
+                    <button class="close" data-dissmis="modal" aria-label="Cerrar">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="alert alert-success">
+                      <h6><strong>Tus datos se guardaron exitosamente</strong></h6>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-warning" type="button" data-dissmis="modal">Cerrar</button>
+                    <button class="btn btn-success" type="button">Aceptar</button>
+                  </div>
+              </div>
+              </div>
+            </div>
+          </div>
+
+       <div class="container">
+        <div class="row mt-5">
+          <div class="col-1">
+            <button type="button"
+            class="btn btn-primary btn-lg"
+            data-bs-toggle="modal"
+            data-bs-target="mi-modal"
+            > 
+
+
+            Abrir</button>
+            <div
+            class="modal fade"
+            id="mi-modal"
+            tabindex="-1"
+            aria-hidden="true"
+            aria-labelledby="label-modal-1"
+            > hola putos</div>
+          </div>
+        </div>
+       </div>
+-->
+        </main>
+      <footer>
+        <secttuion>
+          <h4>Medios de pago:</h4>
+          <h6><img src="../image/monedas-de-dolar.png" style="width: 50px; margin: 0.5rem;" alt="Facebock">Efectivo</h6>
+          <h6> <img src="../image/pago-con-tarjeta.png" style="width: 50px; margin: 0.5rem;" alt="Facebock">Tarjeta de debito/credito</h6>
+          <h6> <img src="../image/pago-en-linea.png" style="width: 50px; margin: 0.5rem;" alt="Facebock">Bytcoin</h6>
+          <h6> <img src="../image/codigo-qr.png" style="width: 50px; margin: 0.5rem;" alt="Facebock">Mercadp Pago</h6>
+        </secttuion>
+        <secttuion style="display: flex; flex-direction: column; justify-content: space-evenly;">
+          <h4>MindHub-Cohort-50</h4>
+        </secttuion>
+        <secttuion>
+          <h4>Nuestras Redes Sociales:</h4>
+          <div>
+           <h6> <a href="https://es-la.facebook.com/" target="_blank"><img src="../image/facebook.png" style="width: 50px; margin: 0.5rem;" alt="Facebock"></a> Faceboock</h6>
+           <h6><a href="https://web.whatsapp.com/" target="_blank"><img src="../image/whatsapp.png" style="width: 50px; margin: 0.5rem;" alt="Whatssap"></a>Whatssap</h6>
+           <h6><a href="https://www.instagram.com/" target="_blank"><img src="../image/instagram.png" style="width: 50px; margin: 0.5rem;" alt="Instagram"></a>Instagram</h6>
+           <h6><a href="https://www.gmail.com/" target="_blank"><img src="../image/email.png"  style="width: 50px; margin: 0.5rem;" alt="Instagram"></a>Email</h6>
+          </div>
+        </secttuion>
+      </footer>
+    <script src="../javascript/pharmac.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

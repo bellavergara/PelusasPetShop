@@ -1,5 +1,236 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sombra1{
+    border-radius: 34px;
+    background: #4eb54033;
+    box-shadow:  13px 13px 15px #36822e35,-13px -13px 15px #35752c37;
+}
+.sombra2{
+    box-shadow: 1px 1px 18px 11px rgba(124, 156, 217, 0.257);
+-webkit-box-shadow: 1px 1px 18px 11px rgba(124, 156, 217, 0.316);
+-moz-box-shadow: 1px 1px 18px 11px rgba(124, 156, 217, 0.192);
+
+}
+
+nav a:active {
+    box-shadow: 2px 2px 5px #1d330c57;
+}
+nav img{
+    width: 20rem; 
+    height: 10rem;
+    object-fit: cover;
+}
+h1, h2, h3 ,h4, h5, h6{
+    font-family: 'Quattrocento', serif;
+}
+.tituloPerroGatoEtc{
+    width: 100% !important;
+    height: 3rem !important;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h3{
+    font-size: xxx-large;
+
+
+}
+#navegacion{
+    display: flex;
+    min-width: 100vh !important;
+    min-height: 30vh !important;
+    justify-content: space-around !important;
+    align-items: center!important;
+    background-color: #3366de5a !important;
+    font-size: x-large;
+}
+#ul-nav{
+    color: black;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header img {
+    height: 50vh;
+    object-position: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.card{
+    margin: 2rem !important;
+    background-color: rgba(200, 214, 239, 0.75);
+}
+.card-body{
+   /*  background-color: rgba(24, 142, 142, 0.182); */
+    background-color: rgba(47, 207, 154, 0.174);
+        min-width: auto!important;
+        min-height: 15vh!important;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.card-exp{
+
+    min-width: 40vh !important;
+    min-height: 70vh !important;
+    margin: 1rem;
+}
+.card-body-exp{
+    background-color: rgba(47, 207, 127, 0.089);
+    width: 100% !important;
+    min-height: 35%!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+}
+.card-footer{
+    height: 2rem !important;
+    background-color: #8586b856;
+}
+.nosotros{
+    height: 25vh !important;
+}
+.imgExperiencia{
+    min-width: 50% !important;
+    height: 40vh !important;
+    object-fit: cover;
+}
+.mascota{
+    width: 95% !important ;
+}
+#form-experiencias{
+    background-color: rgba(47, 207, 154, 0.174);
+    margin: 5rem !important;
+}
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: greenyellow ;
+    color: black;
+    text-align: center;
+
+}
+.contenedorMapa{
+    min-width: 50% !important ;
+    min-height:70vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contenedorContacto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 50% !important;
+
+    
+}
+#contenedorFormularioCont{
+    width: 50% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 60% !important; */
+}
+#contenedorFormularioCont form{
+    min-width: 85% !important;
+}
+#contenedorFormularioCont input{
+    width: 1rem !important;
+}
+
+iframe{
+    margin-left: 2rem;
+    text-align: center;
+    width: 85% !important;
+    height: 50vh !important;
+}
+footer{
+    min-height: 45vh !important;
+    background-color: #6d91e65a !important;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#mainProd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#maincontainertoys{
+    display: flex !important;
+    background-color: #2c2fa5 !important;
+}
+.form-control{
+    min-width: 100% !important;
+}
+
+figure {
+    min-width: 100vh !important;
+    min-height: 100vh !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 1rem;
+    background-color: #01184d5a !important;
+    border-radius: 10px;
+    background-color: #6d91e65a !important;}
+
+#textCardPord {
+    min-width: 50vh !important;
+    height: 55vh !important;
+    background-color: rgba(108, 234, 243, 0.527);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+#img-prod {
+    min-width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+}
+.img-fluid{
+    height: 50vh !important;
+}
+
+.ocultar{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+
 body {
-    background: #dcecff;
+    background: #e2eaef;
     font-family: "Open Sans", sans-serif;
 }
 section,main{
@@ -261,7 +492,7 @@ svg {
 
 @media only screen and (min-width: 1024px){
     .navPet{
-        background-image: url(../image/mascotas.jpg);
+        background-image: url(../image/index/mascotas.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -270,8 +501,34 @@ svg {
         height: 50vh;
         object-position: top;
     }
-    .objPrueba{
-    
-        height: 40vh;
-    }
+}
+
+@media  (min-width: 320px)  and (max-width: 910px){
+  #contenedorContacto{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+}
+
+/*------------estilo Bella --------- */
+.centered-placeholder::placeholder {
+    text-align: center;
+}
+
+#botton{
+    position: absolute;
+    top: 50%; /* Ajusta según tu preferencia para centrar verticalmente */
+    right: 0; /* Posición a la derecha */
+    transform: translateY(-50%); 
+    right: 0;
+}
+
+.carousel-inner {
+    transition-duration: 3s; /* Ajusta la duración de la transición en segundos */
+}
+
+.textoh3{  
+  font-size: xx-large;
 }
