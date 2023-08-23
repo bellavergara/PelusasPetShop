@@ -31,15 +31,7 @@ export function objetoEnCarrito(obj) {
       const divBotones = document.createElement('div');
       divBotones.classList.add('d-flex');
       
-      const spanCantidad = document.createElement('input');
-      spanCantidad.classList.add('quantity',`col-6`);
-      spanCantidad.type = 'number';
-      spanCantidad.value = '1';
-      spanCantidad.min = '1'; 
-      spanCantidad.max = "5";
-    
-
-      divBotones.appendChild(spanCantidad);
+     
 
     
       const botonEliminar = document.createElement('button');

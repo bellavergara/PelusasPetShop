@@ -8,9 +8,7 @@ fetch(url)
 .then(data => {
     const element = data.find(element => element._id == elementId)
     renderDetails(element)
-}).catch(error => console.log(error))
-;
-
+});
 function renderDetails(element) {
     console.log(element.producto)
     const div = document.createElement("div")

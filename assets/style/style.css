@@ -225,16 +225,20 @@ footer {
 }
 
 figure {
-    width: 50vh !important;
-    min-height: 100vh !important;
+    width: 80vh !important;
+    min-height: 50vh !important;
     display: flex;
     justify-content: center !important;
     align-items: center !important;
     padding: 1rem;
     background-color: #01184d5a !important;
     border-radius: 10px;
-    background-color: #6d91e65a !important;
-}
+    background-color: #6d91e65a !important;}
+    figure img{
+        padding-left: 4rem;
+        width: 100% !important;
+        height: auto !important;
+        object-fit: cover; }
 
 #textCardPord {
     min-width: 45vh !important;
@@ -600,10 +604,6 @@ svg {
         object-position: top;
     }
 
-    carouselExampleSlidesOnly    .objPrueba {
-
-        height: 40vh;
-    }
 }
 
 
